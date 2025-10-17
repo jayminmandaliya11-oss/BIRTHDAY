@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message For You 💌</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="home">
+    <div class="preloader">
+        <div class="loader-text">Preparing something special just for you 💖…</div>
+    </div>
+    <div class="cursor"></div>
+    <div class="hearts-container"></div>
+    <button id="loveButton" class="love-button">❤️</button>
+
+    <nav class="navbar" id="navbar">
+        <ul>
+            <li><a href="index.html">🎉 Surprise</a></li>
+            <li><a href="letter.html" class="active">💌 Letter</a></li>
+            <li><a href="photos.html">📸 Photos</a></li>
+            <li><a href="videos.html">🎬 Videos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container letter-container">
+        <p class="click-hint">Click the envelope to open 💌</p>
+        <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body"></div>
+        </div>
+
+        <div class="letter" id="letter">
+            <span class="close-letter" id="close-letter">&times;</span>
+            <p class="letter-text" id="letterText">
+                My Dearest Best Friend,<br>
+                So it's been 4 year's since we met, also today i remember the day when we were in the classroom after celebrating our navratri in our school when our khadosh math's teacher assign us the work and I'm done with the work and u call me for the help back then i didn't know that we will be the best friend🧿❤️ it's october 13 when we first talk after that we added each other in snap afterward(Rest is History too..) there are many highs and lows like it's a hell never ending roller-coaster ride where things go wrong many times and we did many mistake but due to that mistakes we understand that this person i want in my life at anycost.<br> And today in your Birthday🎂 I just want to thank you for being my side Through thick and thins!!🫶🏻🫂<br>Happy Birthday PRINCESS🥺❤️🧿🫂
+                <br>I HATE YOU SO MUCH🥺🫂❤️ 
+                <br>Always be my bestie gurl🥺🥺🫂🫶🏻
+                <br>With all my love,
+                <br>Your Diku💖
+            </p>
+        </div>
+
+        <button id="music-toggle" class="music-toggle-btn" style="display: none;">🔊</button>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

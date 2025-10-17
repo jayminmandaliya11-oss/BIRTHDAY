@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories 📸</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="hearts-container"></div>
+    <button id="loveButton" class="love-button">❤️</button>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">🎉 Surprise</a></li>
+            <li><a href="letter.html">💌 Letter</a></li>
+            <li><a href="photos.html" class="active">📸 Photos</a></li>
+            <li><a href="videos.html">🎬 Videos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container fade-in">
+        <h1 class="page-title">Memories Together 📸</h1>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="photo_1.jpg" alt="Memory 1"
+                    data-caption="Your First Birthday celebration Together 🩷"></div>
+            <div class="gallery-item"><img src="photo_2.jpg" alt="Memory 2"
+                    data-caption="After School Fun! 🎉"></div>
+            <div class="gallery-item"><img src="photo_3.jpg" alt="Memory 3"
+                    data-caption="Your Sanskari Boy who is not that Sanskari 😚😝"></div>
+            <div class="gallery-item"><img src="photo_4.jpg" alt="Memory 4"
+                    data-caption="Our School Days Together Ended here 🥺"></div>
+            <div class="gallery-item"><img src="photo_5.jpg" alt="Memory 5"
+                    data-caption="As always mathe chadi ne bese mari MAA 😚"></div>
+            <div class="gallery-item"><img src="photo_6.jpg" alt="Memory 6"
+                    data-caption="You in Killer Mode 🔥🫠😉"></div>
+            <div class="gallery-item"><img src="photo_7.jpg" alt="Memory 7"
+                    data-caption="Cutie You 👀😋"></div>
+            <div class="gallery-item"><img src="photo_8.jpg" alt="Memory 8"
+                    data-caption="the 2nd most thing I'm scare of 🥲🥲"></div>
+            <div class="gallery-item"><img src="photo_9.jpeg" alt="Memory 9"
+                    data-caption="k tari chaniya choli e 😚"></div>
+            <div class="gallery-item"><img src="photo_10.jpeg" alt="Memory 10"
+                    data-caption="Sad YOU that hurts me 🥺"></div>
+            <div class="gallery-item"><img src="photo_11.jpeg" alt="Memory 11"
+                    data-caption="Happy YOU which i want to see everyday 🧿🥰"></div>
+            <div class="gallery-item"><img src="photo_12.jpeg" alt="Memory 12"
+                    data-caption="Most Dangerous YOU which I'm scared of 🥲"></div>
+        
+        
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
